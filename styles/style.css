@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&family=Ubuntu&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+@media(min-width:480px){
+body{
+    font-family: 'PT Sans Narrow', sans-serif;
+        color: white;
+        background-color: black;
+        font-size: 30px;
+}
+header{
+        background-color: rgba(0, 0, 0, 0.781);
+        width: 480px;
+        position:static;
+        top: 0px;
+}
+.imgHeader{    
+        width: 80px;
+        height: 80px;
+        display: block;
+        margin: auto;
+}
+h1{
+    font-size: 0%;
+}
+.spanMobile{
+    text-align: center;
+    font-size: 20px;
+}
+video{
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+#textHotel{
+    text-align: center;
+    font-size: 35px;
+
+}
+.parrafoAll{
+    text-align: center;
+    font-size: 25px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.carousel{
+    width:400px;
+    height: 200px;
+    margin-bottom: 100px;
+}
+footer{
+    font-size: 20px;
+}
+.menuFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-right: 25px  ;
+}
+p{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.bandaGrupoRigth{
+    text-align: center;
+    color: red;
+}
+.bandaGrupo{
+    text-align: center;
+    color: red;
+}
+.daysLeft{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 18px;
+    text-align: center;
+}
+.daysRigth{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 18px;
+    text-align: center;
+}
+iframe{
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+img{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+}
+}
+.galleryPos{
+    width: 430px;
+    height: 390px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 75px;
+    margin-top: 77px;
+}
+.imglonly{ 
+    width: 430px;
+    height: 390px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 75px;
+    margin-top: 77px;
+    display: block;
+}
+.imgTi{
+    width:260px;
+    height: 300px;
+}
+.listProducts{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/*Desktop*/
+@media (min-width:1024px){
+header{
+    background-color: rgba(0, 0, 0, 0.781);
+    width: 100%;
+    position: static;
+    top: 0px;
+    font-size: 35px;    
+}
+.imgHeader{
+    width: 160px;
+   height: 160px;
+   display: block;
+   margin-left: 25px;
+   margin-top: 25px;
+}
+h1{
+ font-size: 0%;   
+}
+.spanMobile{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-right: 25px  ;
+}
+p{
+    display: block;
+    text-align: start;
+}
+span{
+    margin-left: 15px;
+    font-size: 35px;
+}
+a{
+    text-decoration: none;
+}
+#textHotel{
+    text-align: center;
+    font-size: 35px;
+}
+.parrafoAll{
+    text-align: center;
+    padding: 35px;
+}
+.logoSmall{
+    width: 80px;
+    height: 80px;
+    align-items: center;
+    margin-left: 50%;
+    margin-top: 0%;
+}
+.centerVideo{
+    width: 800px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.carousel{
+    width: 800px;
+    height: 600px;
+    display: block;
+    margin: auto;
+    margin-bottom: 150px;
+}
+.bandaGrupoRigth{
+    display: inline-block;
+    margin-left: 77%;    
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 25px;
+    color: white;
+    text-decoration: underline;
+}
+.bandaGrupo{
+    text-align: start;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 25px;
+    margin-left: 45px;
+    text-decoration: underline;
+}
+ul{
+    justify-self: start;
+    align-self: center;
+    margin-left: 45px;
+    grid-area: lista;
+    list-style-type: none;
+}
+img{
+    justify-self: center;
+    display: block;
+    margin: auto;
+    width: 160px;
+    height: 160px;
+    grid-area: logo;
+}
+iframe{
+    justify-self: center;
+    grid-area: video;
+}
+#gridsDays{
+    display: grid;
+    grid-template-areas: "lista logo video";
+    grid-template-columns: 33.33% 33.33% 33.33%;
+     margin-bottom: 35px;
+}
+#gridsDaysRigth{
+    display: grid;
+    grid-template-areas: "video logo lista";
+    grid-template-columns: 33.33% 33.33% 33.33%;
+     margin-bottom: 35px;
+}
+.daysLeft{
+    text-align: start;
+    font-size: 30px;
+}
+.daysRigth{
+    text-align: start;
+    font-size: 30px;
+}
+.galleryPos{
+    width: 490px;
+    height: 390px;
+}
+#gridGallery{
+    display: flex;
+    flex-direction: row;
+}
+.imglonly{
+   width: 70%;
+   height: 700px;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+}
+.imgTi{
+    width: 70%;
+    height:300px;
+    align-content: center;
+}
+.listProducts{
+    list-style-type: none;
+    text-align: start;
+    margin-left: 15px;
+}
+#tiendaGrids{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-top: 70px;
+}
+}
+
+
