@@ -115,8 +115,6 @@ img{
     text-align: center;
 }
 
-
-
 /*Desktop*/
 @media (min-width:1024px){
 header{
@@ -255,6 +253,10 @@ iframe{
     height:300px;
     align-content: center;
 }
+.imgTi:hover{
+    width: 90%;
+    height: 500px;
+}
 .listProducts{
     list-style-type: none;
     text-align: start;
@@ -263,7 +265,7 @@ iframe{
 #tiendaGrids{
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    margin-top: 70px;
+    margin-top: 150px;
 }
 }
 
