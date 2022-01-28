@@ -11,10 +11,10 @@ body{
         font-size: 30px;
 }
 header{
-        background-color: rgba(0, 0, 0, 0.781);
+        background-color: rgb(0, 0, 0);
         width: 480px;
-        position:static;
-        top: 0px;
+        position: fixed;
+        top: 0px;      
 }
 .imgHeader{    
         width: 80px;
@@ -32,12 +32,11 @@ h1{
 video{
     display: block;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 150px;
 }
 #textHotel{
     text-align: center;
     font-size: 35px;
-
 }
 .parrafoAll{
     text-align: center;
@@ -53,12 +52,6 @@ video{
 footer{
     font-size: 20px;
 }
-.menuFooter{
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    margin-right: 25px  ;
-}
 p{
     text-align: center;
     margin-bottom: 25px;
@@ -70,6 +63,7 @@ p{
 .bandaGrupo{
     text-align: center;
     color: red;
+    margin-top: 75px;
 }
 .daysLeft{
     margin-top: 25px;
@@ -123,30 +117,18 @@ img{
 
 
 
-
-
-
-
-
-
 /*Desktop*/
 @media (min-width:1024px){
 header{
-    background-color: rgba(0, 0, 0, 0.781);
     width: 100%;
+    font-size: 35px;  
     position: static;
-    top: 0px;
-    font-size: 35px;    
 }
 .imgHeader{
     width: 160px;
    height: 160px;
-   display: block;
    margin-left: 25px;
    margin-top: 25px;
-}
-h1{
- font-size: 0%;   
 }
 .spanMobile{
     display: flex;
@@ -165,12 +147,7 @@ span{
 a{
     text-decoration: none;
 }
-#textHotel{
-    text-align: center;
-    font-size: 35px;
-}
 .parrafoAll{
-    text-align: center;
     padding: 35px;
 }
 .logoSmall{
