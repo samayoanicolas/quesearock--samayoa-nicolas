@@ -66,7 +66,47 @@ footer{
 }
 /*Fin del index*/
 /*inico de Fechas*/
+    #textHotel{
+        text-align: center;
+        font-size: 35px;
+    }
+    .bandaGrupo{
+        text-align: center;
+        color: red;
+        @include margin;
+    }
+    .bandaGrupoRigth{
+        @extend .bandaGrupo;
+    }
+    .daysLeft{
+        margin-top: 25px;
+        margin-bottom: 25px;
+        font-size: 18px;
+        text-align: center;
+        list-style-type: none;
+    }
+    a{
+        text-decoration: none;
+    }
+    .daysRigth{
+        @extend .daysLeft;    
+    }
+    img{
+        @include disau;
+        @include sizes ($imgmobileh, $imgmobilew);
+        @include margin;
+    }
+    iframe{
+        @include disau;
+        margin-bottom: 50px;
+    }
+/*Fin de Fechas*/
+
+
+
 }
+
+
 @media (min-width:1024px){
     header{
         width: 100%;
