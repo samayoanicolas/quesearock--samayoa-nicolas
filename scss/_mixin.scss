@@ -1,0 +1,8 @@
+@mixin sizes ($width, $height) {
+    height: $height;
+    width: $width;        
+}
+@mixin disau {
+    display: block;
+    margin: auto;    
+}
