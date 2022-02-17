@@ -17,7 +17,7 @@
     margin: auto; }
   header .spanMobile {
     text-align: center;
-    font-size: 20px; }
+    font-size: 25px; }
   h1 {
     font-size: 0%; }
   video {
@@ -39,8 +39,8 @@
     margin-bottom: 100px; }
   footer p {
     text-align: center;
-    size: 20px;
-    color: red; }
+    font-size: 37px;
+    color: #b3ff00; }
   footer img {
     height: 160px;
     width: 160px;
@@ -112,6 +112,7 @@
     margin-top: 55px; }
   .bandaGrupo, .bandaGrupoRigth {
     text-align: start;
+    font-weight: bold;
     color: white;
     font-weight: bold;
     font-size: 40px;
@@ -119,13 +120,15 @@
     margin-left: 45px;
     text-decoration: underline; }
   .bandaGrupoRigth {
-    display: inline-block;
-    margin-left: 77%;
+    text-align: start;
+    font-weight: bold;
+    color: white;
     font-weight: bold;
     font-size: 40px;
     margin-bottom: 25px;
-    color: white;
-    text-decoration: underline; }
+    margin-left: 45px;
+    text-decoration: underline;
+    display: inline-block; }
   ul {
     justify-self: start;
     align-self: center;
@@ -151,4 +154,10 @@
     display: grid;
     grid-template-areas: "video logo lista";
     grid-template-columns: 33.33% 33.33% 33.33%;
-    margin-bottom: 35px; } }
+    margin-bottom: 35px; }
+  .daysLeft, .daysRigth {
+    text-align: start;
+    font-size: 30px; }
+  .daysRigth {
+    text-align: start;
+    font-size: 30px; } }
