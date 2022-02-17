@@ -137,4 +137,59 @@ footer{
          margin-left:10%;
     }
     /*Fin del index*/
+    /*inicio de fechas*/
+    h2{
+        margin-top: 55px;
+    }
+    .bandaGrupo{ 
+        text-align: start;
+        font-weight: bold; 
+        color: white;
+        font-weight: bold;
+        font-size: 40px;
+        margin-bottom: 25px;
+        margin-left: 45px;
+        text-decoration: underline;
+    }
+    .bandaGrupoRigth{
+        @extend .bandaGrupo;
+        display: inline-block;
+    }
+    ul{
+        justify-self: start;
+        align-self: center;
+        margin-left: 45px;
+        grid-area: lista;
+        list-style-type: none;
+    }
+    img{
+        justify-self: center;
+        @include disau;
+        @include sizes ($smalwidth, $smallheight);
+        grid-area: logo;
+    }
+    iframe{
+        justify-self: center;
+        grid-area: video;
+    }
+    #gridsDays{
+        display: grid;
+        grid-template-areas: "lista logo video";
+        grid-template-columns: 33.33% 33.33% 33.33%;
+         margin-bottom: 35px;
+    }
+    #gridsDaysRigth{
+        display: grid;
+        grid-template-areas: "video logo lista";
+        grid-template-columns: 33.33% 33.33% 33.33%;
+         margin-bottom: 35px;
+    }
+    .daysLeft{
+        text-align: start;
+        font-size: 30px;
+    }
+    .daysRigth{
+        @extend .daysLeft;
+    }
+
 }
